@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca|Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#root {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+}
+
+.App {
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+.navCon {
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.title {
+color: white;
+font-size: 1.5rem;
+}
+
+.loginCon {
+  position: absolute;
+  left: 15px;
+  top: 14px;
+}
+
+.loginCon button {
+  padding: 2px 9px;
+  border: none;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #2B2D42;
+  border-radius: 1px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*Login Form*/
+
+.loginForm {
+  position: fixed;
+  background: #2c3e50; /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #2c3e50, #4ca1af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm button {
+  padding: 10px;
+  background-color: #1B2F33;
+  color: white;
+  border-radius: 10px;
+}
+
+.closeButton {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  color: #2B2D42;
+  font-size: 2.5rem;
+}
+
+input {
+  padding: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.inputs input {
+  margin-bottom: 7px;
+}
+
+.warning {
+  position: absolute;
+  margin: 0 auto;
+  top: 20%;
+  color: #FF5964;
+}
+
+/*Login Form ends */
+
+/* admin */
+
+.admin {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-name {
+  font-size: 0.8rem;
+}
+
+.admin-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.add-task {
+  cursor: pointer;
+  width: 150px;
+  padding: 3px;
+  background-color: #6BF178;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
+/* admin ends */
+
+/* task list */
+
+.task-con {
+  margin: 30px 0;
+}
+
+.task-con div {
+  width: 40vw;
+}
+
+.task-title {
+  display: flex;
+  justify-content: center;
+  background-color: #2D1E2F;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  color:  white;
+}
+
+.for-whom {
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+  padding: 5px 0;
+  background-color: #FFFFFF;
+  margin-bottom: 1px;
+}
+
+.task-text {
+    background-color: #FFFFFF;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.buttons {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  border: none;
+  cursor: pointer;
+  margin: 1px;
+  padding: 5px;
+  background-color: #14bdfe;
+  width: 50px;
+}
+
+.edit {
+  color: white;
+}
+
+.delete {
+  color: white;
+}
+
+.isDoneCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.isDoneCon div {
+  width: 30vw;
+  color: #FF5964;
+}
+
+#isDone {
+  color: white;
+  background-color: #6BF178;
+  display: flex;
+  justify-content: center;
+}
+
+#isNotDone {
+  color: white;
+  background-color: #FF5964;
+  display: flex;
+  justify-content: center;
+}
+
+.isDoneCon input {
+  width: 20px;
+  height: 20px;
+}
+
+.isDoneConAdmin {
+  display: flex;
+  justify-content: center;
+}
+
+/* task list ends */
+
+
+/* create task */
+.createTaskCon {
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose {
+  background-color: #0bcdfe;
+  color: white;
+  font-size: 0.8rem;
+  margin: 5px;
+  padding: 3px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.create-task {
+    background-color: #FF5964;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 3px;
+    width: 100px;
+}
+.inputs select {
+  margin-bottom: 7px;
+  width: 200px;
+}
+.inputs input {
+  width: 200px;
+}
+
+.inputs textarea {
+  width: 200px;
+  height: 120px;
+}
+
+/* create task ends */
